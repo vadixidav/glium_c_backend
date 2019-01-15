@@ -3,6 +3,11 @@ name = "glium_c_backend"
 version = "0.1.0"
 authors = ["Geordon Worley <vadixidav@gmail.com>"]
 edition = "2018"
+description = "Provides an easy way for C to implement a glium backend"
+documentation = "https://docs.rs/glium_c_backend/"
+repository = "https://github.com/vadixidav/glium_c_backend"
+keywords = ["glium", "c", "facade", "backend"]
+license = "MIT"
 
 [dependencies]
 glium = "0.22.0"
