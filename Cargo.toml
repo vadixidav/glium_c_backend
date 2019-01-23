@@ -1,6 +1,6 @@
 [package]
 name = "glium_c_backend"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Geordon Worley <vadixidav@gmail.com>"]
 edition = "2018"
 description = "Provides an easy way for C to implement a glium backend"
@@ -10,4 +10,4 @@ keywords = ["glium", "c", "facade", "backend"]
 license = "MIT"
 
 [dependencies]
-glium = "0.22.0"
+glium = { version = "0.23.0", default-features = false }
